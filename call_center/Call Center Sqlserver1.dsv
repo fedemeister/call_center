@@ -1,0 +1,418 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ce020ed6-1475-464c-bd53-15f2a6061173" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Call Center Sqlserver1</ID>
+  <Name>Call Center Sqlserver1</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Call Center Sqlserver1</DataSourceID>
+  <Schema>
+    <xs:schema id="Call_x0020_Center_x0020_Sqlserver1" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Call_x0020_Center_x0020_Sqlserver1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="297bb78f-3e9e-4c1c-a8a2-205b7ff00627">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_answer_a_call" msprop:design-time-name="1f8732c1-2d8e-424d-b4bb-fe8277bd4dec" msprop:DbTableName="answer_a_call" msprop:FriendlyName="answer_a_call" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="call_id" msprop:design-time-name="fe965a7b-076f-4efd-9849-dd9472214268" msprop:DbColumnName="call_id" msprop:FriendlyName="call_id" type="xs:int" />
+                  <xs:element name="cli_id" msprop:design-time-name="7a0e9b2d-f2da-4a24-953a-94aed84a17fd" msprop:DbColumnName="cli_id" msprop:FriendlyName="cli_id" type="xs:int" />
+                  <xs:element name="dept_id" msprop:design-time-name="72ea3a08-2481-421c-a476-44e17ccde117" msprop:DbColumnName="dept_id" msprop:FriendlyName="dept_id">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="tele_id" msprop:design-time-name="7cab9597-d4d6-4af1-b090-aa4c05cee3ed" msprop:DbColumnName="tele_id" msprop:FriendlyName="tele_id" type="xs:int" />
+                  <xs:element name="salary" msprop:design-time-name="6da6912e-eae9-4662-9e69-7c2640ebc8e7" msprop:DbColumnName="salary" msprop:FriendlyName="salary" type="xs:double" />
+                  <xs:element name="date" msprop:design-time-name="f9c427d1-8539-4bf7-b7c6-0cee0f9e46e9" msprop:DbColumnName="date" msprop:FriendlyName="date" type="xs:int" />
+                  <xs:element name="call_satisfaction_grade" msprop:design-time-name="a81bbf14-b669-4539-8d52-a5e5a1eafa10" msprop:DbColumnName="call_satisfaction_grade" msprop:FriendlyName="call_satisfaction_grade" type="xs:int" />
+                  <xs:element name="call_response_time" msprop:design-time-name="d2572330-2bfd-4417-a08f-1405b3237719" msprop:DbColumnName="call_response_time" msprop:FriendlyName="call_response_time">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_calls" msprop:design-time-name="7bce4cce-bad4-4813-9615-5ae0a5da9e22" msprop:DbTableName="calls" msprop:FriendlyName="calls" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="call_id" msprop:design-time-name="177d13f1-b7e5-409d-a1c8-bb6943e90ebf" msprop:DbColumnName="call_id" msprop:FriendlyName="call_id" type="xs:int" />
+                  <xs:element name="call_satisfaction_grade" msprop:design-time-name="688346bd-e648-479c-a69c-1fb74567a682" msprop:DbColumnName="call_satisfaction_grade" msprop:FriendlyName="call_satisfaction_grade" type="xs:int" />
+                  <xs:element name="call_response_time" msprop:design-time-name="952a6e8b-4494-4d66-a83c-e5e09de542f3" msprop:DbColumnName="call_response_time" msprop:FriendlyName="call_response_time">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_client" msprop:design-time-name="d4daa393-9a5f-45de-8abd-27549b665c2e" msprop:DbTableName="client" msprop:FriendlyName="client" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="cli_id" msprop:design-time-name="2cabf44b-f62e-4cb1-a182-e0be23163dd1" msprop:DbColumnName="cli_id" msprop:FriendlyName="cli_id" type="xs:int" />
+                  <xs:element name="cli_PESEL" msprop:design-time-name="dc45fa5d-f620-40ff-8d75-7cbbbd83b80b" msprop:DbColumnName="cli_PESEL" msprop:FriendlyName="cli_PESEL" type="xs:int" />
+                  <xs:element name="cli_name" msprop:design-time-name="92ecd20e-11d4-4488-88c2-71faff663ee7" msprop:DbColumnName="cli_name" msprop:FriendlyName="cli_name">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="60" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cli_region" msprop:design-time-name="b583160b-5463-43c3-81ef-fb695dcc0f06" msprop:DbColumnName="cli_region" msprop:FriendlyName="cli_region">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cli_city" msprop:design-time-name="d366f29e-ec25-4a09-b03a-e26154352071" msprop:DbColumnName="cli_city" msprop:FriendlyName="cli_city">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cli_postal_code" msprop:design-time-name="df03c7aa-9360-48dc-b456-6e5d4ec8b161" msprop:DbColumnName="cli_postal_code" msprop:FriendlyName="cli_postal_code">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cli_street" msprop:design-time-name="08b6de90-4f20-43c6-89c7-0bf3ee5e8d63" msprop:DbColumnName="cli_street" msprop:FriendlyName="cli_street">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cli_contact_num" msprop:design-time-name="00afef6e-d897-4bec-9a4d-64d04be25a8b" msprop:DbColumnName="cli_contact_num" msprop:FriendlyName="cli_contact_num">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_date" msprop:design-time-name="b322beb7-7fcd-410a-975c-1116791f1c55" msprop:DbTableName="date" msprop:FriendlyName="date" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="date_id" msprop:design-time-name="744521ca-9b4f-4f87-ab01-3f0985182c81" msprop:DbColumnName="date_id" msprop:FriendlyName="date_id" type="xs:int" />
+                  <xs:element name="quarter" msprop:design-time-name="bf70211f-fee8-4e8d-a0b3-543021aa90f4" msprop:DbColumnName="quarter" msprop:FriendlyName="quarter">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="year" msprop:design-time-name="a7e73efd-c41a-448d-a134-6ec6de3fee58" msprop:DbColumnName="year" msprop:FriendlyName="year" type="xs:short" />
+                  <xs:element name="month" msprop:design-time-name="b4c009f3-b6b2-4842-86ce-f146a438d218" msprop:DbColumnName="month" msprop:FriendlyName="month">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="day" msprop:design-time-name="6bbc51e4-9780-4ec9-8d68-a9b0e92c60a4" msprop:DbColumnName="day" msprop:FriendlyName="day" type="xs:dateTime" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_departments" msprop:design-time-name="3fde9d63-88ae-42e8-ad7f-1f8e1d10f93b" msprop:DbTableName="departments" msprop:FriendlyName="departments" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="dept_id" msprop:design-time-name="5afbc5fd-1ae8-436d-92ec-59d3ad8a30df" msprop:DbColumnName="dept_id" msprop:FriendlyName="dept_id">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="dept_name" msprop:design-time-name="fac6bc12-670f-44ae-9a8e-fa7859812e23" msprop:DbColumnName="dept_name" msprop:FriendlyName="dept_name">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_having_a_ip" msprop:design-time-name="945eb82e-74c7-4b73-9e51-4be2e8370f91" msprop:DbTableName="having_a_ip" msprop:FriendlyName="having_a_ip" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="telephone_number" msprop:design-time-name="3ebc9109-5519-43af-b6ca-bbca47d8da57" msprop:DbColumnName="telephone_number" msprop:FriendlyName="telephone_number">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="16" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cli_id" msprop:design-time-name="ec8fddf8-d2f5-4ae2-8586-c92954075fcf" msprop:DbColumnName="cli_id" msprop:FriendlyName="cli_id" type="xs:int" />
+                  <xs:element name="i_id" msprop:design-time-name="732b0534-c0d8-43ec-8787-249f09a22a53" msprop:DbColumnName="i_id" msprop:FriendlyName="i_id" type="xs:int" />
+                  <xs:element name="i_contract_date" msprop:design-time-name="39758643-f08a-4ae7-b50d-386e2fa54541" msprop:DbColumnName="i_contract_date" msprop:FriendlyName="i_contract_date" type="xs:int" />
+                  <xs:element name="i_permanence_date" msprop:design-time-name="2f5036c1-704f-465e-af7f-60589ce6b0e9" msprop:DbColumnName="i_permanence_date" msprop:FriendlyName="i_permanence_date" type="xs:int" />
+                  <xs:element name="i_price" msprop:design-time-name="53c0174a-9b60-4d25-933f-1e163ec189e4" msprop:DbColumnName="i_price" msprop:FriendlyName="i_price" type="xs:double" />
+                  <xs:element name="i_minutes" msprop:design-time-name="70cb42c5-ae70-4c18-a2b7-02ed554a0ef8" msprop:DbColumnName="i_minutes" msprop:FriendlyName="i_minutes">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_having_a_mp" msprop:design-time-name="73c9b068-6f51-4245-b85e-be26dad2ab7f" msprop:DbTableName="having_a_mp" msprop:FriendlyName="having_a_mp" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="telephone_number" msprop:design-time-name="4a505cce-fe7e-4d58-8e05-3e5e86a9149b" msprop:DbColumnName="telephone_number" msprop:FriendlyName="telephone_number">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="16" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="mb_id" msprop:design-time-name="6dab7ded-9b89-43fe-adf3-2fbccb1f7c2d" msprop:DbColumnName="mb_id" msprop:FriendlyName="mb_id" type="xs:int" />
+                  <xs:element name="cli_id" msprop:design-time-name="6694d0bb-99ae-4bad-998e-5b7f395db118" msprop:DbColumnName="cli_id" msprop:FriendlyName="cli_id" type="xs:int" />
+                  <xs:element name="mb_contract_date" msprop:design-time-name="eb3df04f-8d1e-487d-9a2c-11884cf1ced5" msprop:DbColumnName="mb_contract_date" msprop:FriendlyName="mb_contract_date" type="xs:int" />
+                  <xs:element name="mb_permanence_date" msprop:design-time-name="9d6cf825-07d0-4b5f-8922-cc093fbb1d5e" msprop:DbColumnName="mb_permanence_date" msprop:FriendlyName="mb_permanence_date" type="xs:int" />
+                  <xs:element name="mb_price" msprop:design-time-name="c659398f-7c01-47b2-ba30-233e79a8c1be" msprop:DbColumnName="mb_price" msprop:FriendlyName="mb_price" type="xs:double" />
+                  <xs:element name="mb_minutes" msprop:design-time-name="a326d8cd-e150-4a4b-84ea-7f64a442de07" msprop:DbColumnName="mb_minutes" msprop:FriendlyName="mb_minutes">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="mb_internet" msprop:design-time-name="c061b918-f3b8-4998-9734-7584b37ed1de" msprop:DbColumnName="mb_internet" msprop:FriendlyName="mb_internet">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_internet_plans" msprop:design-time-name="74a10e53-b526-4f68-98a1-7096ad113a62" msprop:DbTableName="internet_plans" msprop:FriendlyName="internet_plans" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="i_id" msprop:design-time-name="2ce823ac-b0c1-44b4-bcbd-032bff1f7c2f" msprop:DbColumnName="i_id" msprop:FriendlyName="i_id" type="xs:int" />
+                  <xs:element name="i_name" msprop:design-time-name="ac52d1d0-9db4-400e-aaf0-449f81064201" msprop:DbColumnName="i_name" msprop:FriendlyName="i_name">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="i_bandwitdh" msprop:design-time-name="269efdbe-1313-4a7f-8a05-0150b8fdc534" msprop:DbColumnName="i_bandwitdh" msprop:FriendlyName="i_bandwitdh">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="i_expiration_date" msprop:design-time-name="7cb714b3-3a18-430f-890e-23309cf11681" msprop:DbColumnName="i_expiration_date" msprop:FriendlyName="i_expiration_date" type="xs:int" />
+                  <xs:element name="i_launch_date" msprop:design-time-name="c029fc7b-7111-4ef6-b674-ec62820dce9c" msprop:DbColumnName="i_launch_date" msprop:FriendlyName="i_launch_date" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_mobile_plans" msprop:design-time-name="aff305c1-2712-47d2-8955-655c90c0411f" msprop:DbTableName="mobile_plans" msprop:FriendlyName="mobile_plans" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="mb_id" msprop:design-time-name="7a78e411-2423-41da-96b1-08d006b763e2" msprop:DbColumnName="mb_id" msprop:FriendlyName="mb_id" type="xs:int" />
+                  <xs:element name="mb_name" msprop:design-time-name="bb5e508d-abf6-4342-a81e-caaa1bb4689d" msprop:DbColumnName="mb_name" msprop:FriendlyName="mb_name">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="mb_expiration_date" msprop:design-time-name="b76e1373-feef-461b-ae36-8b864bea07f6" msprop:DbColumnName="mb_expiration_date" msprop:FriendlyName="mb_expiration_date" type="xs:int" />
+                  <xs:element name="mb_launch_date" msprop:design-time-name="4301be7d-9d5f-4545-bf07-d7ba2718cf33" msprop:DbColumnName="mb_launch_date" msprop:FriendlyName="mb_launch_date" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_sysdiagrams" msprop:design-time-name="4ea4fa6f-f48e-41a2-8aeb-2edabec02281" msprop:DbTableName="sysdiagrams" msprop:FriendlyName="sysdiagrams" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="name" msprop:design-time-name="d2ba3053-2d86-4e5e-ae95-eb30736a0f95" msprop:DbColumnName="name" msprop:FriendlyName="name">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="128" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="principal_id" msprop:design-time-name="f5d5ccbc-4896-4525-928d-aeabf97eb668" msprop:DbColumnName="principal_id" msprop:FriendlyName="principal_id" type="xs:int" />
+                  <xs:element name="diagram_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="3da204f9-6382-471f-b565-2fa4d4797400" msprop:DbColumnName="diagram_id" msprop:FriendlyName="diagram_id" type="xs:int" />
+                  <xs:element name="version" msprop:design-time-name="8b71ff88-e582-4fc3-91be-2c22ab20cb40" msprop:DbColumnName="version" msprop:FriendlyName="version" type="xs:int" minOccurs="0" />
+                  <xs:element name="definition" msprop:design-time-name="3a3c317b-e5b3-41bf-8b4d-bfcd586fb99f" msprop:DataSize="0" msprop:DbColumnName="definition" msprop:FriendlyName="definition" type="xs:base64Binary" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_telephone_operator" msprop:design-time-name="91c1be70-84dc-42ab-afd9-792bf5ab8e40" msprop:DbTableName="telephone_operator" msprop:FriendlyName="telephone_operator" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="tele_id" msprop:design-time-name="2ff3903c-aa8d-4b72-bf5b-601be1809ad0" msprop:DbColumnName="tele_id" msprop:FriendlyName="tele_id" type="xs:int" />
+                  <xs:element name="tele_PESEL" msprop:design-time-name="b4b01514-ee80-40d7-846e-b2dab97f8555" msprop:DbColumnName="tele_PESEL" msprop:FriendlyName="tele_PESEL" type="xs:int" />
+                  <xs:element name="tele_name" msprop:design-time-name="2b0e19a4-b559-499c-bc29-283ad97e0e76" msprop:DbColumnName="tele_name" msprop:FriendlyName="tele_name">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="60" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="tele_salary" msprop:design-time-name="44fbb6d4-db1d-4322-a966-61dc07e3c78c" msprop:DbColumnName="tele_salary" msprop:FriendlyName="tele_salary" type="xs:short" />
+                  <xs:element name="valid" msprop:design-time-name="0a7743ca-5f8d-44dc-8a33-71e6f0282707" msprop:DbColumnName="valid" msprop:FriendlyName="valid" type="xs:unsignedByte" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_calls" />
+          <xs:field xpath="call_id" />
+        </xs:unique>
+        <xs:unique name="dbo_client_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_client" />
+          <xs:field xpath="cli_id" />
+        </xs:unique>
+        <xs:unique name="dbo_date_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_date" />
+          <xs:field xpath="date_id" />
+        </xs:unique>
+        <xs:unique name="dbo_departments_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_departments" />
+          <xs:field xpath="dept_id" />
+        </xs:unique>
+        <xs:unique name="dbo_internet_plans_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_internet_plans" />
+          <xs:field xpath="i_id" />
+        </xs:unique>
+        <xs:unique name="dbo_mobile_plans_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_mobile_plans" />
+          <xs:field xpath="mb_id" />
+        </xs:unique>
+        <xs:unique name="dbo_sysdiagrams_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_sysdiagrams" />
+          <xs:field xpath="diagram_id" />
+        </xs:unique>
+        <xs:unique name="dbo_telephone_operator_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_telephone_operator" />
+          <xs:field xpath="tele_id" />
+        </xs:unique>
+        <xs:keyref name="FK_date_id_mb_launch_date" refer="dbo_date_Constraint1">
+          <xs:selector xpath=".//dbo_mobile_plans" />
+          <xs:field xpath="mb_launch_date" />
+        </xs:keyref>
+        <xs:keyref name="FK_date_id_mb_expiration_date" refer="dbo_date_Constraint1">
+          <xs:selector xpath=".//dbo_mobile_plans" />
+          <xs:field xpath="mb_expiration_date" />
+        </xs:keyref>
+        <xs:keyref name="FK_date_id_i_expiration_date" refer="dbo_date_Constraint1">
+          <xs:selector xpath=".//dbo_internet_plans" />
+          <xs:field xpath="i_expiration_date" />
+        </xs:keyref>
+        <xs:keyref name="FK_date_id_i_launch_date" refer="dbo_date_Constraint1">
+          <xs:selector xpath=".//dbo_internet_plans" />
+          <xs:field xpath="i_launch_date" />
+        </xs:keyref>
+        <xs:keyref name="FK_date_id_mb_contract_date" refer="dbo_date_Constraint1">
+          <xs:selector xpath=".//dbo_having_a_mp" />
+          <xs:field xpath="mb_contract_date" />
+        </xs:keyref>
+        <xs:keyref name="FK_date_id_mb_permanence_date" refer="dbo_date_Constraint1">
+          <xs:selector xpath=".//dbo_having_a_mp" />
+          <xs:field xpath="mb_permanence_date" />
+        </xs:keyref>
+        <xs:keyref name="FK_client_having_a_mp" refer="dbo_client_Constraint1">
+          <xs:selector xpath=".//dbo_having_a_mp" />
+          <xs:field xpath="cli_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_mobile_plans_having_a_mp" refer="dbo_mobile_plans_Constraint1">
+          <xs:selector xpath=".//dbo_having_a_mp" />
+          <xs:field xpath="mb_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_date_id_i_contract_date" refer="dbo_date_Constraint1">
+          <xs:selector xpath=".//dbo_having_a_ip" />
+          <xs:field xpath="i_contract_date" />
+        </xs:keyref>
+        <xs:keyref name="FK_client_having_a_ip" refer="dbo_client_Constraint1">
+          <xs:selector xpath=".//dbo_having_a_ip" />
+          <xs:field xpath="cli_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_date_id_i_permanence_date" refer="dbo_date_Constraint1">
+          <xs:selector xpath=".//dbo_having_a_ip" />
+          <xs:field xpath="i_permanence_date" />
+        </xs:keyref>
+        <xs:keyref name="FK_internet_plans_having_a_ip" refer="dbo_internet_plans_Constraint1">
+          <xs:selector xpath=".//dbo_having_a_ip" />
+          <xs:field xpath="i_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_departments_answer_a_call" refer="dbo_departments_Constraint1">
+          <xs:selector xpath=".//dbo_answer_a_call" />
+          <xs:field xpath="dept_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_calls_answer_a_call" refer="Constraint1">
+          <xs:selector xpath=".//dbo_answer_a_call" />
+          <xs:field xpath="call_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_date_answer_a_call" refer="dbo_date_Constraint1">
+          <xs:selector xpath=".//dbo_answer_a_call" />
+          <xs:field xpath="date" />
+        </xs:keyref>
+        <xs:keyref name="FK_client_answer_a_call" refer="dbo_client_Constraint1">
+          <xs:selector xpath=".//dbo_answer_a_call" />
+          <xs:field xpath="cli_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_telephone_operator_answer_a_call" refer="dbo_telephone_operator_Constraint1">
+          <xs:selector xpath=".//dbo_answer_a_call" />
+          <xs:field xpath="tele_id" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Call_x0020_Center_x0020_Sqlserver1 xmlns="" />
+  </Schema>
+</DataSourceView>
