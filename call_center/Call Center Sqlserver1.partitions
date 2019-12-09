@@ -163,6 +163,23 @@
     </MeasureGroup>
     <MeasureGroup>
       <ID>Having a Ip 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="8dafc6dc-ced0-46b4-8352-346b9b7f45b5">
+          <ID>Having a Ip</ID>
+          <Name>Having a Ip</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0013a4ee-6644-4ce7-83c9-8d972e39c50c">
+            <DataSourceViewID>Call Center Sqlserver1</DataSourceViewID>
+            <TableID>dbo_having_a_ip</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
     </MeasureGroup>
   </MeasureGroups>
 </Cube>
