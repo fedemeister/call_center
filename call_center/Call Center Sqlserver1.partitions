@@ -1,17 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="aac08afa-b0f5-4c7e-8d26-537bf548f9bc" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="04bc0fd7-0b96-42cf-8be4-41a690a39036" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Call Center Sqlserver1</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Answer a Call</ID>
       <Partitions>
-        <Partition dwd:design-time-name="512069c0-e13b-4c57-aa29-25c5b46fa817">
+        <Partition dwd:design-time-name="7879ac20-391b-4361-8bbf-75bb4a55cabe">
           <ID>Answer a Call</ID>
           <Name>Answer a Call</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8f66d070-87df-4189-ac7a-2b43122b8e95">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="88d97df6-bc06-420d-86ad-d6ca4054029e">
             <DataSourceViewID>Call Center Sqlserver1</DataSourceViewID>
             <TableID>dbo_answer_a_call</TableID>
           </Source>
@@ -24,14 +24,14 @@
     <MeasureGroup>
       <ID>Having a Ip</ID>
       <Partitions>
-        <Partition dwd:design-time-name="b91ecb38-5c8a-401d-a3d0-4c7b104ac7a3">
+        <Partition dwd:design-time-name="0d8f933d-fbff-4f7c-a5d3-b7f7e20ea6ed">
           <ID>Having a Ip</ID>
           <Name>Having a Ip</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3b8e2f99-176d-4799-9c68-ac0bb43d9c2e">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c8e31769-c104-4195-81bb-3ae032ecb65a">
             <DataSourceViewID>Call Center Sqlserver1</DataSourceViewID>
             <TableID>dbo_having_a_ip</TableID>
           </Source>
@@ -44,14 +44,14 @@
     <MeasureGroup>
       <ID>Having a Mp</ID>
       <Partitions>
-        <Partition dwd:design-time-name="8fad8248-8078-425a-b403-b14035e631dc">
+        <Partition dwd:design-time-name="4c47ba45-ffd5-4cfa-95c5-0477f50074cd">
           <ID>Having a Mp</ID>
           <Name>Having a Mp</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="cef49cea-2f3b-4269-9bd9-726516552012">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="92c40778-420d-4286-9fbf-30a21d90bda0">
             <DataSourceViewID>Call Center Sqlserver1</DataSourceViewID>
             <TableID>dbo_having_a_mp</TableID>
           </Source>
@@ -62,116 +62,16 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
-      <ID>Telephone Operator</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="645f8155-d9ca-46bf-ae6b-f5ef68b36edb">
-          <ID>Telephone Operator</ID>
-          <Name>Telephone Operator</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e1d0252e-a7af-46bf-a179-e6d02aec5f5d">
-            <DataSourceViewID>Call Center Sqlserver1</DataSourceViewID>
-            <TableID>dbo_telephone_operator</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>Client</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="ad6b61a1-1611-440f-a311-ca288f0cc555">
-          <ID>Client</ID>
-          <Name>Client</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="69cd3a03-969a-45d4-b630-dc231f46ab43">
-            <DataSourceViewID>Call Center Sqlserver1</DataSourceViewID>
-            <TableID>dbo_client</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>Calls</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="04386cdf-487b-41b2-9908-b205bcddaa4f">
-          <ID>Calls</ID>
-          <Name>Calls</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8de33d4a-690d-4780-aac0-2808d7dae7bb">
-            <DataSourceViewID>Call Center Sqlserver1</DataSourceViewID>
-            <TableID>dbo_calls</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>Mobile Plans</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="c0bc7aee-5fe3-4c6d-96b6-139d50259977">
-          <ID>Mobile Plans</ID>
-          <Name>Mobile Plans</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7d6bf8d3-4fd9-44f7-b1fc-6cf8ff9c8079">
-            <DataSourceViewID>Call Center Sqlserver1</DataSourceViewID>
-            <TableID>dbo_mobile_plans</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>Internet Plans</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="1dc6c71a-cc00-4036-95d0-afc50235e634">
-          <ID>Internet Plans</ID>
-          <Name>Internet Plans</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6641bc81-40c6-406a-96f1-dca414ee0e85">
-            <DataSourceViewID>Call Center Sqlserver1</DataSourceViewID>
-            <TableID>dbo_internet_plans</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
       <ID>Having a Ip 1</ID>
       <Partitions>
-        <Partition dwd:design-time-name="8dafc6dc-ced0-46b4-8352-346b9b7f45b5">
+        <Partition dwd:design-time-name="69bde419-0148-4a9d-b731-764d1ef16bee">
           <ID>Having a Ip</ID>
           <Name>Having a Ip</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0013a4ee-6644-4ce7-83c9-8d972e39c50c">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5f5a7414-253b-4214-bb49-25ef81722ab5">
             <DataSourceViewID>Call Center Sqlserver1</DataSourceViewID>
             <TableID>dbo_having_a_ip</TableID>
           </Source>
@@ -180,6 +80,18 @@
           <ProcessingMode>Regular</ProcessingMode>
         </Partition>
       </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Having a Mp 1</ID>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Having a Ip 2</ID>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Answer a Call 1</ID>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Having a Mp 2</ID>
     </MeasureGroup>
   </MeasureGroups>
 </Cube>
