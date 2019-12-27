@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="48b5be9f-db09-4b21-b0f7-da51a079e24d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="488c654f-8f5f-4df7-a5f8-2f9000f28d56" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Mobile Plans</ID>
   <Name>Mobile Plans</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3923" scrolltop="-5186" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11536" y="13097" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3923" scrolltop="-5186" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12779" y="17568" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -68,50 +68,54 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="33338400-b680-488b-b904-30993a6c498f">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6ada7eae-d7db-41b8-a3a6-d722ed238f71">
     <DataSourceViewID>Call Center Sqlserver1</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="77807a3f-86e3-4725-880b-2aa357d41b3d">
+  <ErrorConfiguration dwd:design-time-name="dc4d8316-d598-4d3a-9ff4-9c2b450a7c2b">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="232f7104-d32b-4d40-8a11-23709be301b2">
+    <Attribute dwd:design-time-name="e0674d16-0363-488a-b968-df551c11fc1d">
       <ID>Mb Id</ID>
       <Name>Mb Id</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f9407e04-0cee-4bc1-a5ea-07675f9f1786">
+        <KeyColumn dwd:design-time-name="16fe57ae-c52f-49cc-ac75-fedf6d75c6f5">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="bf30bdba-0a12-4129-bddc-7a9d1ff1a026">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d8dc8276-6175-4cfc-8496-3a924fdc82c9">
             <TableID>dbo_mobile_plans</TableID>
             <ColumnID>mb_id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="982fd728-67a2-422e-9ddc-2622fa837639">
+        <AttributeRelationship dwd:design-time-name="37824a1e-7c26-412b-acb7-0d579cec1b6f">
           <AttributeID>Mb Expiration Date</AttributeID>
           <Name>Mb Expiration Date</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="eb932f17-d42d-4dcd-a767-93bddce63d27">
+        <AttributeRelationship dwd:design-time-name="e5032f0c-5ee0-4c71-99dd-322e8fad3e40">
           <AttributeID>Mb Launch Date</AttributeID>
           <Name>Mb Launch Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a1020ab7-e644-4dbc-80a9-4cec3bc075ea">
+          <AttributeID>Mb Name</AttributeID>
+          <Name>Mb Name</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="9faa3113-571e-49e1-99f2-df0e14aa6f57">
+    <Attribute dwd:design-time-name="4c719853-3162-47a4-be2f-84db5e9cb5ff">
       <ID>Mb Expiration Date</ID>
       <Name>Mb Expiration Date</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="5cbb1bab-2adc-426e-a71e-fd26b82c51f3">
+        <KeyColumn dwd:design-time-name="a7c964dc-a8ff-42c7-a05d-c401406ff6a2">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="dae18ab0-e191-442c-ab6d-2a05d0cec94f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="11e1e3a6-bdc5-4008-9351-eeb1ef395eff">
             <TableID>dbo_mobile_plans</TableID>
             <ColumnID>mb_expiration_date</ColumnID>
           </Source>
@@ -122,13 +126,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1501e3fb-942a-484e-87a7-d964ea8a51f2">
+    <Attribute dwd:design-time-name="2d2bc379-3455-4263-acda-8bf9964c5de5">
       <ID>Mb Launch Date</ID>
       <Name>Mb Launch Date</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="98cf9dda-8eb8-420d-bc95-5a31d2da5ba7">
+        <KeyColumn dwd:design-time-name="193bcabb-2cc4-4436-be24-24e897219df6">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4f7ac8a1-dfee-41d9-9559-8502bcca177d">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bda97b8b-8e42-4328-8aef-cebdedbfef05">
             <TableID>dbo_mobile_plans</TableID>
             <ColumnID>mb_launch_date</ColumnID>
           </Source>
@@ -139,34 +143,50 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
+    <Attribute dwd:design-time-name="4c5eb809-6bb5-405f-a0d5-1267bf5162e9">
+      <ID>Mb Name</ID>
+      <Name>Mb Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="90131428-5d01-4423-88f9-c6f0a602c37d">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3fb0959a-69a2-47fd-9ff6-bba574431c21">
+            <TableID>dbo_mobile_plans</TableID>
+            <ColumnID>mb_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="89c35f80-ffbc-4cbd-9a27-cbd82bb503ec">
+    <Hierarchy dwd:design-time-name="625ebbbe-d6f6-49fe-bcb1-84517ef321f6">
       <ID>Hierarchy</ID>
       <Name>MB_EXP_DATE HIERARCHY</Name>
       <Levels>
-        <Level dwd:design-time-name="e5db5ba1-f954-4e65-b152-2f4bb0bf1865">
+        <Level dwd:design-time-name="9a214c0a-84ad-4457-b5cd-835cc1068036">
           <ID>Mb Expiration Date</ID>
           <Name>Mb Expiration Date</Name>
           <SourceAttributeID>Mb Expiration Date</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="c5c2d36a-2c70-4c2c-9860-008ee856e171">
+        <Level dwd:design-time-name="4f949c9d-a503-412f-acb9-163e1ad5ffd3">
           <ID>Mb Id</ID>
           <Name>Mb Id</Name>
           <SourceAttributeID>Mb Id</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="90677c2c-dac9-4f33-a201-7ac152035d13">
+    <Hierarchy dwd:design-time-name="8fe7245f-4e54-4acc-806c-56dd6a970d20">
       <ID>Hierarchy 1</ID>
       <Name>MB_LAU_DATE HIERARCHY</Name>
       <Levels>
-        <Level dwd:design-time-name="7e291712-f2aa-4f20-b6f1-ff7257cea4af">
+        <Level dwd:design-time-name="6d1231a4-4ef7-41e2-b3f8-e0636515c22d">
           <ID>Mb Launch Date</ID>
           <Name>Mb Launch Date</Name>
           <SourceAttributeID>Mb Launch Date</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="5159cccb-ae8c-4d50-b967-ad2be28c635a">
+        <Level dwd:design-time-name="fe8abdd1-43b3-4d85-976e-c449ebfbc8f4">
           <ID>Mb Id</ID>
           <Name>Mb Id</Name>
           <SourceAttributeID>Mb Id</SourceAttributeID>
