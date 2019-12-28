@@ -68,7 +68,7 @@
           <ConfigurationSetting>
             <Id>Call Center Sqlserver1</Id>
             <Name>Call Center Sqlserver1</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-2214OKP;Integrated Security=SSPI;Initial Catalog=call_center_sqlserver1</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-IJHOCER;Integrated Security=SSPI;Initial Catalog=call_center_sqlserver1</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
