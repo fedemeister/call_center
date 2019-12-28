@@ -1,10 +1,3 @@
-CREATE TABLE telephone_operator(
-   tele_id     INTEGER  NOT NULL PRIMARY KEY 
-  ,tele_PESEL  INTEGER  NOT NULL
-  ,tele_name   VARCHAR(20) NOT NULL
-  ,tele_salary INTEGER  NOT NULL
-  ,valid       BIT  NOT NULL
-);
 INSERT INTO telephone_operator(tele_id,tele_PESEL,tele_name,tele_salary,valid) VALUES (1,22476181964,'Jill Sims',1200,0);
 INSERT INTO telephone_operator(tele_id,tele_PESEL,tele_name,tele_salary,valid) VALUES (2,62554336266,'Margaret Smith',900,1);
 INSERT INTO telephone_operator(tele_id,tele_PESEL,tele_name,tele_salary,valid) VALUES (3,71985531732,'Pamela Fields',1000,1);

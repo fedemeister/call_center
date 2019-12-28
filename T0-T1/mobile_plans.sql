@@ -1,10 +1,3 @@
-CREATE TABLE mobile_plans(
-   mb_id              INTEGER  NOT NULL PRIMARY KEY 
-  ,mb_name            VARCHAR(12) NOT NULL
-  ,mb_expiration_date INTEGER  NOT NULL
-  ,mb_launch_date     INTEGER  NOT NULL
-);
-
 INSERT INTO mobile_plans(mb_id,mb_name,mb_expiration_date,mb_launch_date) VALUES (0,'Magneta Plus',719,4);
 INSERT INTO mobile_plans(mb_id,mb_name,mb_expiration_date,mb_launch_date) VALUES (1,'Magneta',409,363);
 INSERT INTO mobile_plans(mb_id,mb_name,mb_expiration_date,mb_launch_date) VALUES (2,'Magneta Plus',563,304);

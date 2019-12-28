@@ -1,10 +1,3 @@
-CREATE TABLE internet_plans(
-   i_id              INTEGER  NOT NULL PRIMARY KEY 
-  ,i_name            VARCHAR(6) NOT NULL
-  ,i_bandwitdh       VARCHAR(6) NOT NULL
-  ,i_expiration_date INTEGER  NOT NULL
-  ,i_launch_date     INTEGER  NOT NULL
-);
 INSERT INTO internet_plans(i_id,i_name,i_bandwitdh,i_expiration_date,i_launch_date) VALUES (0,'200Mb','low',210,90);
 INSERT INTO internet_plans(i_id,i_name,i_bandwitdh,i_expiration_date,i_launch_date) VALUES (1,'200Mb','low',528,186);
 INSERT INTO internet_plans(i_id,i_name,i_bandwitdh,i_expiration_date,i_launch_date) VALUES (2,'1000Mb','high',259,191);

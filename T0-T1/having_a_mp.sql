@@ -1,13 +1,3 @@
-CREATE TABLE having_a_mp(
-   telephone_number   INTEGER  NOT ' '
-  ,mb_id              INTEGER  NOT ' '
-  ,cli_id             INTEGER  NOT ' '
-  ,mb_contract_date   INTEGER  NOT ' '
-  ,mb_permanence_date INTEGER  NOT ' '
-  ,mb_price           INTEGER  NOT ' '
-  ,mb_minutes         INTEGER  NOT ' '
-  ,mb_internet        INTEGER  NOT ' '
-);
 INSERT INTO having_a_mp(telephone_number,mb_id,cli_id,mb_contract_date,mb_permanence_date,mb_price,mb_minutes,mb_internet) VALUES (+48685338928,3,1422,229,370,200,500,' ');
 INSERT INTO having_a_mp(telephone_number,mb_id,cli_id,mb_contract_date,mb_permanence_date,mb_price,mb_minutes,mb_internet) VALUES (+48439762726,8,295,240,252,200,' ',' ');
 INSERT INTO having_a_mp(telephone_number,mb_id,cli_id,mb_contract_date,mb_permanence_date,mb_price,mb_minutes,mb_internet) VALUES (+48216115911,0,417,104,359,200,500,100);
@@ -3423,7 +3413,7 @@ INSERT INTO having_a_mp(telephone_number,mb_id,cli_id,mb_contract_date,mb_perman
 INSERT INTO having_a_mp(telephone_number,mb_id,cli_id,mb_contract_date,mb_permanence_date,mb_price,mb_minutes,mb_internet) VALUES (+48587218497,11,636,205,305,150,600,300);
 INSERT INTO having_a_mp(telephone_number,mb_id,cli_id,mb_contract_date,mb_permanence_date,mb_price,mb_minutes,mb_internet) VALUES (+48649962467,7,1365,119,645,100,400,300);
 INSERT INTO having_a_mp(telephone_number,mb_id,cli_id,mb_contract_date,mb_permanence_date,mb_price,mb_minutes,mb_internet) VALUES (+48421777843,9,1038,33,426,200,500,200);
-INSERT INTO having_a_mp(telephone_number,mb_id,cli_id,mb_contract_date,mb_permanence_date,mb_price,mb_minutes,mb_internet) VALUES (+48284113643,6,1500,349,499,250,600,300);
+INSERT INTO having_a_mp(telephone_number,mb_id,cli_id,mb_contract_date,mb_permanence_date,mb_price,mb_minutes,mb_internet) VALUES (+48284113643,6,1200,349,499,250,600,300);
 INSERT INTO having_a_mp(telephone_number,mb_id,cli_id,mb_contract_date,mb_permanence_date,mb_price,mb_minutes,mb_internet) VALUES (+48482158295,11,831,316,463,250,400,100);
 INSERT INTO having_a_mp(telephone_number,mb_id,cli_id,mb_contract_date,mb_permanence_date,mb_price,mb_minutes,mb_internet) VALUES (+48372319695,0,750,56,432,100,500,' ');
 INSERT INTO having_a_mp(telephone_number,mb_id,cli_id,mb_contract_date,mb_permanence_date,mb_price,mb_minutes,mb_internet) VALUES (+48999452256,12,33,201,574,200,' ',300);

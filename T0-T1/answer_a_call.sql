@@ -1,14 +1,3 @@
-DROP TABLE IF EXISTS answer_a_call;
-CREATE TABLE IF NOT EXISTS answer_a_call(
-   call_id                 INTEGER  NOT NULL
-  ,cli_id                  INTEGER  NOT NULL
-  ,dept_id                 VARCHAR(12) NOT NULL
-  ,tele_id                 INTEGER  NOT NULL
-  ,salary                  INTEGER  NOT NULL
-  ,date                    INTEGER  NOT NULL
-  ,call_satisfaction_grade INTEGER  NOT NULL
-  ,call_response_time      INTEGER  NOT NULL
-);
 INSERT INTO answer_a_call(call_id,cli_id,dept_id,tele_id,salary,date,call_satisfaction_grade,call_response_time) VALUES (1,857,'DEPT_SALES',114,1000,476,9,3);
 INSERT INTO answer_a_call(call_id,cli_id,dept_id,tele_id,salary,date,call_satisfaction_grade,call_response_time) VALUES (2,945,'DEPT_SUPPORT',193,1200,329,3,5);
 INSERT INTO answer_a_call(call_id,cli_id,dept_id,tele_id,salary,date,call_satisfaction_grade,call_response_time) VALUES (3,1446,'DEPT_MAIN',83,900,420,2,2);

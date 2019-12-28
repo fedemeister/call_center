@@ -1,8 +1,3 @@
-CREATE TABLE calls(
-   call_id                 INTEGER  NOT NULL PRIMARY KEY 
-  ,call_satisfaction_grade INTEGER  NOT NULL
-  ,call_response_time      VARCHAR(10) NOT NULL
-);
 INSERT INTO calls(call_id,call_satisfaction_grade,call_response_time) VALUES (1,9,'ACCEPTABLE');
 INSERT INTO calls(call_id,call_satisfaction_grade,call_response_time) VALUES (2,3,'ACCEPTABLE');
 INSERT INTO calls(call_id,call_satisfaction_grade,call_response_time) VALUES (3,2,'SHORT');

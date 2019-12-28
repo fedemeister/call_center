@@ -1,12 +1,3 @@
-CREATE TABLE having_a_ip(
-   telephone_number  VARCHAR(12) NOT ' '
-  ,cli_id            INTEGER  NOT ' '
-  ,i_id              INTEGER  NOT ' '
-  ,i_contract_date   INTEGER  NOT ' '
-  ,i_permanence_date INTEGER  NOT ' '
-  ,i_price           INTEGER  NOT ' '
-  ,i_minutes         INTEGER 
-);
 INSERT INTO having_a_ip(telephone_number,cli_id,i_id,i_contract_date,i_permanence_date,i_price,i_minutes) VALUES ('+48821426863',755,7,330,446,200,200);
 INSERT INTO having_a_ip(telephone_number,cli_id,i_id,i_contract_date,i_permanence_date,i_price,i_minutes) VALUES ('+48511992317',380,14,262,544,200,200);
 INSERT INTO having_a_ip(telephone_number,cli_id,i_id,i_contract_date,i_permanence_date,i_price,i_minutes) VALUES ('+48536571672',15,6,318,607,30,200);

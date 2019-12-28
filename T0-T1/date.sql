@@ -1,10 +1,3 @@
-CREATE TABLE date(
-   date_id INTEGER  NOT NULL PRIMARY KEY 
-  ,quarter INTEGER  NOT NULL
-  ,year    INTEGER  NOT NULL
-  ,month   VARCHAR(9) NOT NULL
-  ,day     DATE  NOT NULL
-);
 INSERT INTO date(date_id,quarter,year,month,day) VALUES (0,1,2016,'January','2016-1-1');
 INSERT INTO date(date_id,quarter,year,month,day) VALUES (1,1,2016,'January','2016-1-2');
 INSERT INTO date(date_id,quarter,year,month,day) VALUES (2,1,2016,'January','2016-1-3');
