@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="11fcb475-ca7b-47e9-b28c-6d03ba02a13b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ee3ec0db-b7ff-4ef8-82d6-558a3f02c5d3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Telephone Operator</ID>
   <Name>Telephone Operator</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,39 +68,40 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1cec1242-1aae-4e4b-8edf-ba0faea43446">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7c5e3842-074c-4563-9e5b-dfbd00b6e46a">
     <DataSourceViewID>Call Center Sqlserver1</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="07be9b8d-5b52-482a-abbe-2f3c86af9d6d">
+  <ErrorConfiguration dwd:design-time-name="d2eaac35-0ba1-485a-a942-29a4d0f2c32b">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="557f8c26-b5b5-46e8-b64a-f42d80906610">
+    <Attribute dwd:design-time-name="5f9f6fc2-8ae6-4d9d-9ddf-3f0f0ad48f3d">
       <ID>Tele Id</ID>
       <Name>Tele Id</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>399</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2ab4b2ff-1022-4722-b2e8-b06768ef70c3">
+        <KeyColumn dwd:design-time-name="a217d074-fa7e-467c-9ac4-1790bf61d2e7">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f859ee76-c8ca-43d7-9f87-f439a6a7de74">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8a07aee3-1613-46c3-9df7-68690ab3bb12">
             <TableID>dbo_telephone_operator</TableID>
             <ColumnID>tele_id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="4f2097b1-dd61-4f00-933f-baba614f12e6">
+        <AttributeRelationship dwd:design-time-name="d30ed9c6-ba88-4ade-a627-c2b4efdc7176">
           <AttributeID>Tele Salary</AttributeID>
           <Name>Tele Salary</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="308fc593-c38d-4bed-9fcf-ef385ff0500f">
+        <AttributeRelationship dwd:design-time-name="ccfa81a1-035c-4750-9bcc-b1320837cc03">
           <AttributeID>Tele Name</AttributeID>
           <Name>Tele Name</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ac7583fa-4114-4873-8ed2-1606314dd545">
+        <AttributeRelationship dwd:design-time-name="6fb9af7a-ee3b-489f-bd8e-7e8a63d5e8f1">
           <AttributeID>Tele PESEL</AttributeID>
           <Name>Tele PESEL</Name>
         </AttributeRelationship>
@@ -109,13 +110,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="f0d9135c-e961-43a0-a95d-96011d2e3ec0">
+    <Attribute dwd:design-time-name="dbe7d564-20a4-477d-b842-99b2f211daaa">
       <ID>Tele Salary</ID>
       <Name>Tele Salary</Name>
+      <EstimatedCount>3</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2b013e24-08e5-4d34-a701-ab19ee89866d">
+        <KeyColumn dwd:design-time-name="43276d06-f89c-4ba8-8c62-8b76c4ca447e">
           <DataType>SmallInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="12305a23-2917-4bd6-8bd0-012752f33a51">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="91190b89-cc1a-4606-994b-2031c20e064c">
             <TableID>dbo_telephone_operator</TableID>
             <ColumnID>tele_salary</ColumnID>
           </Source>
@@ -124,14 +126,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="bebb607d-d6e1-4ced-889d-2e9a73746a76">
+    <Attribute dwd:design-time-name="07f8de20-00e5-4ac4-9bcc-c43ff7c9d515">
       <ID>Tele Name</ID>
       <Name>Tele Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c39d8d3b-205a-42bd-80d7-2aa08095dc6b">
+        <KeyColumn dwd:design-time-name="76eeb8b5-8489-4636-abae-6293edd02e45">
           <DataType>WChar</DataType>
           <DataSize>60</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4006e450-4723-48d6-ac26-2ae1428b12c0">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0cddecf5-9e76-47d1-8628-9cac4b14b052">
             <TableID>dbo_telephone_operator</TableID>
             <ColumnID>tele_name</ColumnID>
           </Source>
@@ -140,13 +142,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7f96c722-22f7-43f5-8d63-582b8cc95a9e">
+    <Attribute dwd:design-time-name="a89fa28d-d5e6-4df0-ab1c-dec77cf7ff86">
       <ID>Tele PESEL</ID>
       <Name>Tele PESEL</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0b606e17-04f7-4f77-b5bb-39e5b92ad6e9">
+        <KeyColumn dwd:design-time-name="d114df03-2cc3-484b-a534-6d61e7544af5">
           <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="cbbb465b-37cb-4b20-91bf-63d8454ad27c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9cc444f8-1240-4e0f-affd-64b1e0b60c03">
             <TableID>dbo_telephone_operator</TableID>
             <ColumnID>tele_PESEL</ColumnID>
           </Source>
@@ -157,16 +159,16 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="ae881035-d0f1-433e-b3e9-7fff4886115a">
+    <Hierarchy dwd:design-time-name="e4aa6332-a30f-4bbf-80e1-e872b2d2365a">
       <ID>Hierarchy</ID>
       <Name>EMPLOYE SALARY HIERARCHY</Name>
       <Levels>
-        <Level dwd:design-time-name="76aa2463-444a-424e-a000-11c83b8f773f">
+        <Level dwd:design-time-name="f637da94-2399-4f39-95d9-f697f988ee91">
           <ID>Tele Salary</ID>
           <Name>Tele Salary</Name>
           <SourceAttributeID>Tele Salary</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="f85e2a62-d5f4-40a1-a99f-62e2c5832ae5">
+        <Level dwd:design-time-name="17695636-c475-4d86-88d1-e344b4d53177">
           <ID>Tele Name</ID>
           <Name>Tele Name</Name>
           <SourceAttributeID>Tele Name</SourceAttributeID>

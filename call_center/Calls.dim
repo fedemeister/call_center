@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="86af6518-4498-4d70-9cb9-c6c3df8a9496" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="127c02fe-c80b-4571-8463-37fb6c630ab8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Calls</ID>
   <Name>Calls</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,9 +8,9 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3711" scrolltop="-5397" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11536" y="13097" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3711" scrolltop="-5397" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7578" y="10922" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
-              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
             <mouseicon>
               <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="calls" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4075" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="calls" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4075" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000eb0f0000fe080000" />
             </control>
@@ -68,46 +68,52 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b073df7e-76e8-4a23-b139-a98c1630947b">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="ebf725a3-ce51-4c59-9c8e-137403e4eb68">
     <DataSourceViewID>Call Center Sqlserver1</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="f42db829-1b41-4c27-8118-04fdcd7e68a9">
+  <ErrorConfiguration dwd:design-time-name="4f2d3882-5cd6-4889-8d85-ca9fad6708d6">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="be6e1d4f-05a9-488d-b189-11eb5e68bbc3">
+    <Attribute dwd:design-time-name="e4603697-49d1-4b98-869c-59f3c8eed988">
       <ID>Call Id</ID>
       <Name>Call Id</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>9866</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2321fc3e-cd96-4417-84de-07452cde02f9">
+        <KeyColumn dwd:design-time-name="7d45f340-943b-4294-946e-f514b9dc7fc4">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="72d8b78a-0be5-4807-890e-c75c890e3df8">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9aaba77f-bcff-4c18-9c4b-8fdd4a75bcae">
             <TableID>dbo_calls</TableID>
             <ColumnID>call_id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="a3c23496-072a-4d3c-af62-9a65497176f2">
+        <AttributeRelationship dwd:design-time-name="43314cf4-ddd2-4fdc-bd80-681560f7550b">
           <AttributeID>Call Satisfaction Grade</AttributeID>
           <Name>Call Satisfaction Grade</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="92779eb2-7d69-4d31-a4ac-a6f8b571367f">
+          <AttributeID>Call Response Time</AttributeID>
+          <Name>Call Response Time</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="264ea065-9ee8-4ac9-8226-c8f4714f19d3">
+    <Attribute dwd:design-time-name="a748cd92-97ab-44eb-8b1b-34bdf0c0fcfb">
       <ID>Call Satisfaction Grade</ID>
       <Name>Call Satisfaction Grade</Name>
+      <EstimatedCount>9</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3965fe0a-636c-4f72-803b-76fbc81ca400">
+        <KeyColumn dwd:design-time-name="775d59ea-bc2a-4c36-8bca-eff82182dfd3">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="49a41d6c-0f58-4e77-8cea-65aa4da797e6">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0fb37711-8971-45fe-9f52-d73ce5805511">
             <TableID>dbo_calls</TableID>
             <ColumnID>call_satisfaction_grade</ColumnID>
           </Source>
@@ -116,18 +122,34 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
+    <Attribute dwd:design-time-name="fe63bdca-e0a2-4c29-a0f6-6a96311e53e2">
+      <ID>Call Response Time</ID>
+      <Name>Call Response Time</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5dfa9875-c5b5-4577-a8ba-970f5c2f6b7b">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8e9e7086-ad36-4920-a255-7aefefb93b85">
+            <TableID>dbo_calls</TableID>
+            <ColumnID>call_response_time</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="7257dca3-71e9-4ad9-8fca-d2fe854690cd">
+    <Hierarchy dwd:design-time-name="d27be0b9-2c15-444e-a3d9-0592f1f5754a">
       <ID>Hierarchy</ID>
       <Name>Hierarchy</Name>
       <Levels>
-        <Level dwd:design-time-name="d638899a-f690-4291-8ce9-5dfa59956000">
+        <Level dwd:design-time-name="440c90d9-511d-40a1-b9e0-d3c5d7403620">
           <ID>Call Satisfaction Grade</ID>
           <Name>Call Satisfaction Grade</Name>
           <SourceAttributeID>Call Satisfaction Grade</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="02a389be-968e-4ca0-9ad1-5180264dd4be">
+        <Level dwd:design-time-name="72f0cf6a-df24-4321-9524-a815a807482e">
           <ID>Call Id</ID>
           <Name>Call Id</Name>
           <SourceAttributeID>Call Id</SourceAttributeID>

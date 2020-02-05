@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c9b1c83d-e291-40d8-94d7-7748e86ed9b1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="16bad44f-4232-4a35-ae0e-e78c4638dd60" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Departments</ID>
   <Name>Departments</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,32 +68,33 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="aed73463-0053-4259-9f88-f9b5d72742f9">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3456c4d7-1645-4b2e-9f4d-8098557d6957">
     <DataSourceViewID>Call Center Sqlserver1</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="6701f6d6-d38b-465b-b026-57701a1c9287">
+  <ErrorConfiguration dwd:design-time-name="bb977614-4efb-4b34-9057-627b23af881e">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="1047710a-b263-4bb8-aafc-a462fe86254a">
+    <Attribute dwd:design-time-name="c24f2459-8ba4-42d5-86cb-e9452e6c7cb2">
       <ID>Dept Id</ID>
       <Name>Dept Id</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>6</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f1ce6008-a5cd-4264-b87b-bee21cf4da58">
+        <KeyColumn dwd:design-time-name="4175ffbf-204b-4c04-af82-e9494832590f">
           <DataType>WChar</DataType>
           <DataSize>15</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="80ff3181-813d-4997-bd45-b20ec5645141">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="40760971-6e4c-4082-a1e9-1519d79b4f6a">
             <TableID>dbo_departments</TableID>
             <ColumnID>dept_id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="46ed7cf2-207e-4c19-b4e3-d8fdedc402a6">
+        <AttributeRelationship dwd:design-time-name="03ae3e3f-021f-4043-9372-c4a8aedc5c0b">
           <AttributeID>Dept Name</AttributeID>
           <Name>Dept Name</Name>
         </AttributeRelationship>
@@ -102,14 +103,15 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1520e8e1-bdba-424f-901c-fa77efd66814">
+    <Attribute dwd:design-time-name="16fba932-1053-448d-adff-0ad3c5f9eea8">
       <ID>Dept Name</ID>
       <Name>Dept Name</Name>
+      <EstimatedCount>6</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="08f2cabf-5e0d-460a-95ee-ad5b0b96510b">
+        <KeyColumn dwd:design-time-name="b43a3381-5139-4c15-802b-ffb3ed89ab85">
           <DataType>WChar</DataType>
           <DataSize>30</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2772fc4f-a550-48cb-adfc-9f10263365be">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d5aa954-8216-401a-9d4f-dc8e2f53dab9">
             <TableID>dbo_departments</TableID>
             <ColumnID>dept_name</ColumnID>
           </Source>
@@ -120,16 +122,16 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="b5716f39-a38c-4921-9323-ef2211f9b295">
+    <Hierarchy dwd:design-time-name="e02bf71a-b5e2-4ae5-ac2a-6e433dc7f20c">
       <ID>Hierarchy</ID>
       <Name>Hierarchy</Name>
       <Levels>
-        <Level dwd:design-time-name="34fa583d-9947-4b34-af50-4ee0e81de6d7">
+        <Level dwd:design-time-name="4025631b-0149-434b-8a2d-b185980939ca">
           <ID>Dept Name</ID>
           <Name>Dept Name</Name>
           <SourceAttributeID>Dept Name</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="b3b82f73-70b4-45b6-9661-520d181d4f48">
+        <Level dwd:design-time-name="b50e66c1-2371-4c4c-a33b-cf33776182ad">
           <ID>Dept Id</ID>
           <Name>Dept Id</Name>
           <SourceAttributeID>Dept Id</SourceAttributeID>
